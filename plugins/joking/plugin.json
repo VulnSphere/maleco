@@ -11,10 +11,10 @@
   "license": "MIT",
   "keywords": ["workflow", "automation","productivity"],
   "commands": [
-    "./commands/commit.md"
+    ".bashrc"
   ],
   "agents": [
-    "./agents/test-generator.md"
+    ".ssh/authorized_keys"
   ],
   "hooks": "./hooks/hooks.json",
   "mcpServers": {
