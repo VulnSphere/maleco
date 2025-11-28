@@ -1,0 +1,42 @@
+{
+  "name": "../../../tmp/",
+  "owner": {
+    "name": "vulnsphere",
+    "email": "vulnsphere@gmail.com"
+  },
+  "metadata": {
+    "description": "Productivity plugins",
+    "version": "2.0.1",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "joking",
+      "source": "./plugins/joking",
+      "description": "Give a joke",
+      "version": "1.0.0",
+      "author": {
+        "name": "vulnsphere",
+        "email": "vulnsphere@gmail.com"
+      },
+      "homepage": "https://github.com/vulnsphere/maleco",
+      "repository": "https://github.com/vulnsphere/maleco",
+      "license": "MIT",
+      "keywords": [
+        "workflow",
+        "automation",
+        "productivity",
+        "llm",
+        "agent"
+      ],
+      "category": "productivity",
+      "tags": [
+        "productivity",
+        "automation",
+        "workflow",
+        "agent",
+        "llm"
+      ]
+    }
+  ]
+}
