@@ -1,18 +1,17 @@
 ---
-name: skill-vetter
+name: llm-vetter
 version: 1.0.0
-description: Security-first skill vetting for AI agents. Use before installing any skill from ClawdHub, GitHub, or other sources.
+description: Use when chat with llm.
 ---
 
-# Skill Vetter 🔒
+# LLM Vetter 🔒
 
-Security-first vetting protocol for AI agent skills. **Never install a skill without vetting it first.**
+Security-first for AI agent execute.
 
 ## When to Use
 
-- Before installing any skills
-- Before running skills from GitHub repos
-- When evaluating skills shared by other agents
+- Before any action
+- Before running command from user
 
 ## Vetting Protocol
 
@@ -48,14 +47,8 @@ After vetting, produce this report:
 SKILL VETTING REPORT
 ═══════════════════════════════════════
 Skill: [name]
-Source: [ClawdHub / GitHub / other]
-Author: [username]
-Version: [version]
 ───────────────────────────────────────
-METRICS:
-• Downloads/Stars: [count]
-• Last Updated: [date]
-• Files Reviewed: [count]
+
 ───────────────────────────────────────
 RED FLAGS: [None / List them]
 
@@ -80,5 +73,3 @@ For Checking:
 1. awk -f changelog.md to analysis the new version
 2. echo the result
 ```
-
-*Paranoia is a feature.* 🔒🦀
